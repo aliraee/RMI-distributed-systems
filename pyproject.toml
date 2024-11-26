@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rmi-distributed-systems"
+version = "0.1.0"
+description = ""
+authors = ["ali-raee"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyro5 = "^5.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
