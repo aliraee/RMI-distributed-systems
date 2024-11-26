@@ -63,7 +63,7 @@ This project demonstrates a Train Reservation System built using a custom Remote
      ```
      Train ID: T123
      Seat Type: economy
-     Passenger Name: Alice
+     Passenger Name: ali
      ```
 
 ---
@@ -93,8 +93,8 @@ sequenceDiagram
     participant Client
     participant Middleware
     participant Server
-    Client->>Middleware: Send request {"method": "book_ticket", "args": ["T123", "economy", "Alice"]}
-    Middleware->>Server: Parse request, call book_ticket("T123", "economy", "Alice")
+    Client->>Middleware: Send request {"method": "book_ticket", "args": ["T123", "economy", "ali"]}
+    Middleware->>Server: Parse request, call book_ticket("T123", "economy", "ali")
     Server-->>Middleware: Return result {"status": "success", "result": "Ticket 1 booked successfully"}
     Middleware-->>Client: Return result "Ticket 1 booked successfully"
 ```
@@ -148,8 +148,8 @@ Example interaction:
 Enter your choice: 2
 Train ID: T123
 Seat Type: economy
-Passenger Name: Alice
-Server Response: Ticket 1 booked successfully for Alice in economy class.
+Passenger Name: ali
+Server Response: Ticket 1 booked successfully for ali in economy class.
 ```
 
 ---
