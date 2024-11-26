@@ -41,11 +41,12 @@ This project is a **distributed train ticket reservation system** implemented in
    cd train-reservation-system
 
 # RMI Middleware Project - Phase 2
-## Part 1: Supporting Primitive Data Types
-{!2-DedicatedMiddleWare/SupportPrimitives/README.md!}
+<!-- ## Part 1: Supporting Primitive Data Types -->
+[Part 1: Supporting Primitive Data Types](2-DedicatedMiddleWare/SupportPrimitives/README.md)
 
-## Part 2: Supporting Train Ticket Booking
-{!2-DedicatedMiddleWare/SupportTrainTickets/README.md!}
+<!-- ## Part 2: Supporting Train Ticket Booking -->
+
+[Part 2: Supporting Train Ticket Booking](2-DedicatedMiddleWare/SupportTrainTickets/README.md)
 
 ## **Conclusion**
 
