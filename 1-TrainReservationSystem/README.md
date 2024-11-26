@@ -55,6 +55,11 @@ This project demonstrates a Train Reservation System built using the Pyro5 libra
   ```bash
   poetry install
   ```
+OR
+- Run the following command to install the required packages:
+   ```bash
+   pip install -r req.txt
+   ```
 
 ### **Steps**
 1. **Start the Pyro5 Name Server**:

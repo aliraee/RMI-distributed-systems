@@ -39,6 +39,10 @@ This project is a **distributed train ticket reservation system** implemented in
    ```bash
    git clone https://github.com/aliraee/RMI-distributed-systems.git
    cd train-reservation-system
+2. Run the following command to install the required packages:
+   ```bash
+   pip install -r req.txt
+   ```
 # RMI Middleware Project - Phase 1
 [Part 1: Implement Ticket Bokking with Pyro5](1-TrainReservationSystem/README.md)
 
