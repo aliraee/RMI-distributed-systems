@@ -83,4 +83,31 @@ sequenceDiagram
    - The server dynamically resolves the method name and executes it based on the JSON request.
 
 2. **Supported Methods**:
-   - `add(a, b)`: Adds
+   - `add(a, b)`: Adds two integers.
+   - `multiply(a, b)`: Multiplies two floats.
+   - `is_even(num)`: Checks if an integer is even.
+   - `to_upper(text)`: Converts text to uppercase.
+   - `reverse_list(items)`: Reverses a list.
+
+3. **Fault Tolerance**:
+   - Handles invalid method calls and arguments gracefully, returning a JSON error response.
+
+---
+
+## **Error Handling**
+
+The server responds with error messages if:
+1. The requested method does not exist.
+2. Incorrect arguments are passed to the method.
+
+Example:
+- Client sends a request for an unsupported method:
+  ```json
+  {"method": "non_existent", "args": []}
+  ```
+- Server responds:
+  ```json
+  {"status": "error", "message": "'PrimitiveTypeServer' object has no attribute 'non_existent'"}
+  ```
+
+---
