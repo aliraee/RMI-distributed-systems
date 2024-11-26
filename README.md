@@ -39,14 +39,16 @@ This project is a **distributed train ticket reservation system** implemented in
    ```bash
    git clone https://github.com/aliraee/RMI-distributed-systems.git
    cd train-reservation-system
+# RMI Middleware Project - Phase 1
+[Part 1: Implement Ticket Bokking with Pyro5](1-TrainReservationSystem/README.md)
 
 # RMI Middleware Project - Phase 2
 <!-- ## Part 1: Supporting Primitive Data Types -->
-[Part 1: Supporting Primitive Data Types](2-DedicatedMiddleWare/SupportPrimitives/README.md)
+[Part 2.1: Supporting Primitive Data Types](2-DedicatedMiddleWare/SupportPrimitives/README.md)
 
 <!-- ## Part 2: Supporting Train Ticket Booking -->
 
-[Part 2: Supporting Train Ticket Booking](2-DedicatedMiddleWare/SupportTrainTickets/README.md)
+[Part 2.2: Supporting Train Ticket Booking](2-DedicatedMiddleWare/SupportTrainTickets/README.md)
 
 # **Features of the Implemented Middleware**
 
