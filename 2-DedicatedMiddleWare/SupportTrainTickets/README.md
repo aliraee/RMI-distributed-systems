@@ -63,7 +63,7 @@ This project demonstrates a Train Reservation System built using a custom Remote
      ```
      Train ID: T123
      Seat Type: economy
-     Passenger Name: ali
+     Passenger Name: Ali
      ```
 
 ---
@@ -148,8 +148,8 @@ Example interaction:
 Enter your choice: 2
 Train ID: T123
 Seat Type: economy
-Passenger Name: ali
-Server Response: Ticket 1 booked successfully for ali in economy class.
+Passenger Name: Ali
+Server Response: Ticket 1 booked successfully for Ali in economy class.
 ```
 
 ---
@@ -170,4 +170,3 @@ Contains the client logic for:
 
 ---
 
-Let me know if you need additional information or assistance!
