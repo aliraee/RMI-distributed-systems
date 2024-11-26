@@ -58,7 +58,7 @@ class ReservationServer:
 
 
 def main():
-    daemon = Pyro5.server.Daemon(host="127.0.0.1", port=9091)  # Start the Pyro5 daemon
+    daemon = Pyro5.server.Daemon(host="server", port=9091)  # Start the Pyro5 daemon
     ns = Pyro5.api.locate_ns()  # Locate the Pyro5 name server
     uri = daemon.register(ReservationServer)  # Register the ReservationServer class
     ns.register("reservation.server", uri)  # Register the server with a name

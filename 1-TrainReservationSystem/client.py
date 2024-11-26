@@ -1,7 +1,12 @@
 import Pyro5.api
 
 def main():
-    server = Pyro5.api.Proxy("PYRONAME:reservation.server")  # Connect to the server
+    # Locate the name server on Node 1
+    name_server = Pyro5.api.locate_ns(host="server", port=9090)
+
+    # Lookup the server object by name
+    server_uri = name_server.lookup("reservation.server")
+    server = Pyro5.api.Proxy(server_uri)  # Connect to the server
 
     while True:
         print("\n--- Train Reservation System ---")

@@ -3,7 +3,7 @@ import json
 
 
 class PrimitiveTypeClient:
-    def __init__(self, host="localhost", port=9090):
+    def __init__(self, host="server", port=9080):
         self.host = host
         self.port = port
 

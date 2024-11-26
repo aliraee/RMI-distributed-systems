@@ -72,9 +72,9 @@ class ReservationServer:
 def server():
     """Start the Reservation Server."""
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(("localhost", 9090))
+    server_socket.bind(("server", 9070))
     server_socket.listen(5)
-    print("Reservation Server is running on port 9090...")
+    print("Reservation Server is running on port 9070...")
 
     reservation_server = ReservationServer()
 

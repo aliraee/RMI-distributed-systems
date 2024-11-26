@@ -3,7 +3,7 @@ import json
 
 
 class ReservationClient:
-    def __init__(self, host="localhost", port=9090):
+    def __init__(self, host="server", port=9070):
         self.host = host
         self.port = port
 

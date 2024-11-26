@@ -1,0 +1,5 @@
+docker network create RMI
+
+docker run -it --name client --net RMI -v .:/RMI -d docker.arvancloud.ir/python:3.12-slim
+docker run -it --name server --net RMI -v .:/RMI -d docker.arvancloud.ir/python:3.12-slim
+

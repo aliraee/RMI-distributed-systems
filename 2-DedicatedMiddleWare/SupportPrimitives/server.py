@@ -30,9 +30,9 @@ class PrimitiveTypeServer:
 
 def server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(("localhost", 9090))
+    server_socket.bind(("server", 9080))
     server_socket.listen(5)
-    print("Primitive Type Server is running on port 9090...")
+    print("Primitive Type Server is running on port 9080...")
 
     primitive_server = PrimitiveTypeServer()
 
